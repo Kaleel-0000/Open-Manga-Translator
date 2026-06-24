@@ -1,0 +1,47 @@
+{
+  "name": "manga-translate-ext",
+  "version": "1.0.0",
+  "description": "Cross-browser manga/comic translation extension",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch --mode development",
+    "build": "webpack --config webpack.config.js --mode production",
+    "build:firefox": "webpack --config webpack.config.js --mode production --env browser=firefox",
+    "test": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/firefox-webext-browser": "^120.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/webextension-polyfill": "^0.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "^10.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.0.0",
+    "eslint": "^8.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.0.0",
+    "postcss": "^8.0.0",
+    "postcss-loader": "^7.0.0",
+    "style-loader": "^3.0.0",
+    "tailwindcss": "^3.0.0",
+    "ts-jest": "^29.4.11",
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.9.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "idb": "^8.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tesseract.js": "^5.0.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}
