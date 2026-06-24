@@ -1,6 +1,6 @@
 # Manga Translate — Browser Extension
 
-A production-ready cross-browser extension that translates manga, manhwa, manhua, webtoons, and comics **directly on any website** — preserving artwork and speech bubbles.
+This is a vibe-coded project. A production-ready cross-browser extension that translates manga, manhwa, manhua, webtoons, and comics **directly on any website** — preserving artwork and speech bubbles.
 
 ---
 
